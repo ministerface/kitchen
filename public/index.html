@@ -11,6 +11,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
 	<script src="app/js/app.js"></script>
+	<script src="app/js/routing/config.js"></script>
+	<script src="app/js/routing/pageCtrl.js"></script>
 </head>
 
 <body ng-app="kitchenApp">
@@ -20,12 +22,9 @@
 			<div class="logo"><img src="app/image/logo.png" alt=""></div>
 			<nav>
 				<ul ng-controller="pathController as pathCtrl">
-					<li ng-class="{ active: pathCtrl.isActive('/')}" class="kitchen"><a href='/'>Моя кухня</a></li>
-					<li ng-class="{ active: pathCtrl.isActive('/breakfast')}" class="breakfast"><a ng-href='/breakfast'>Позавтракать</a></li>
-					<li ng-class="{ active: pathCtrl.isActive('/lunch')}" class="lunch"><a href=''>Отобедать</a></li>
-					<li class="dinner"><a href=''>Поужинать</a></li>
-					<li class="celebration"><a href=''>Отпразновать</a></li>
-					<li class='major'><a href=''>Помажорить</a></li>
+
+					<li ng-repeat="page in pathCtrl.pages" ng-class="{ active: pathCtrl.isActive('{{page.href}}')}" class="{{page.class}}"><a href='{{page.href}}'>{{page.name}}</a></li>
+
 				</ul>
 			</nav>
 			<div class="badge bottom">
@@ -39,7 +38,7 @@
 					<div class="left">
 						<form class="search" action="">
 							<div class="input-icon">
-								<input type="text" ng-model='search' placeholder='Поиск...'>
+								<input type="text" ng-model='search' placeholder='Название, ингридиент, стоимоть или что угодно...'>
 								<span class="icon-search"><i class="fa fa-search"></i></span>
 							</div>
 						</form>

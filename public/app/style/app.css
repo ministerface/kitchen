@@ -144,6 +144,7 @@ nav ul li.active a,nav ul li a:hover {
 form.search input {
 	height: 25px;
     margin: 8px 10px;
+    width: 500px;
     padding: 0;
     border: none;
     font-size: 20px;
