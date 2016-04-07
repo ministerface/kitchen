@@ -3,7 +3,7 @@
 		<div class="item" ng-repeat="recipe in recipeCtrl.recipes | limitTo: 5 | filter:search">
 			<figure>
 				<img ng-src="{{recipe.images.imageBig}}" alt="">
-					<div ng-bind="recipe.name"></div>
 			</figure>
+			<h3 ng-bind="recipe.name"></h3>
 		</div>
 	</div>

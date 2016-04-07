@@ -1,5 +1,4 @@
 'use strict';
-
 angular.module('kitchenApp.routing')
 	.controller('pathController', function($location){
 			var pathCtrl = this;
@@ -36,7 +35,7 @@ angular.module('kitchenApp.routing')
 				},
 			];
 
-			pathCtrl.isActive = function (viewLocation) { 
+			pathCtrl.isActive = function (viewLocation) {
 	        	return viewLocation === $location.path();
 	    	};
 		});
