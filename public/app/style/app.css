@@ -65,7 +65,7 @@ nav ul li a  {
 
 nav ul li a:before {
     content: '';
-    width: 20px;
+    width: 22px;
     height: 22px;
     display: inline-block;
     background-image: url('../image/sprite.png');
@@ -75,17 +75,29 @@ nav ul li a:before {
 
 }
 
-nav ul li.breakfast a:before {
-	background-position-x: 0px;
+
+nav ul li.kitchen a:before {
+  background-position-x: 2px;
 }
 
-nav ul li.lunch a:before {
+nav ul li.breakfast a:before {
 	background-position-x: -20px;
 }
 
-nav ul li.dinner a:before {
+nav ul li.lunch a:before {
 	background-position-x: -40px;
 }
+
+nav ul li.dinner a:before {
+	background-position-x: -63px;
+}
+nav ul li.celebration a:before {
+  background-position-x: -107px;
+}
+nav ul li.major a:before {
+  background-position-x: -86px;
+}
+
 
 nav ul li.active a,nav ul li a:hover {
 	background: #292F42;
