@@ -22,7 +22,7 @@
 				<ul ng-controller="pathController as pathCtrl">
 					<li ng-class="{ active: pathCtrl.isActive('/')}" class="kitchen"><a href='/'>Моя кухня</a></li>
 					<li ng-class="{ active: pathCtrl.isActive('/breakfast')}" class="breakfast"><a ng-href='/breakfast'>Позавтракать</a></li>
-					<li class="lunch"><a href=''>Отобедать</a></li>
+					<li ng-class="{ active: pathCtrl.isActive('/lunch')}" class="lunch"><a href=''>Отобедать</a></li>
 					<li class="dinner"><a href=''>Поужинать</a></li>
 					<li><a href=''>Отпразновать</a></li>
 					<li><a href=''>Помажорить</a></li>
