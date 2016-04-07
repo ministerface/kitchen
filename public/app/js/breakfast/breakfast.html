@@ -1,0 +1,9 @@
+<h1>Позавтракать</h1>
+	<div class="items" ng-controller="recipesController as recipeCtrl">
+		<div class="item" ng-repeat="recipe in recipeCtrl.recipes | limitTo: 5 | filter:search">
+			<figure>
+				<img ng-src="{{recipe.images.imageBig}}" alt="">
+					<div ng-bind="recipe.name"></div>
+			</figure>
+		</div>
+	</div>

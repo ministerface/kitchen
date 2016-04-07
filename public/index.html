@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+	<title>Kitchen - Готовь как Бог!</title>
+	<link rel="stylesheet" href="app/style/default.css">
+	<link rel="stylesheet" href="app/style/app.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+	<script src="app/js/app.js"></script>
+</head>
+
+<body ng-app="kitchenApp">
+	<div class="wrapper">
+
+		<div class="sidebar">
+			<div class="logo"><img src="app/image/logo.png" alt=""></div>
+			<nav>
+				<ul ng-controller="pathController as pathCtrl">
+					<li ng-class="{ active: pathCtrl.isActive('/')}" class="kitchen"><a href='/'>Моя кухня</a></li>
+					<li ng-class="{ active: pathCtrl.isActive('/breakfast')}" class="breakfast"><a ng-href='/breakfast'>Позавтракать</a></li>
+					<li class="lunch"><a href=''>Отобедать</a></li>
+					<li class="dinner"><a href=''>Поужинать</a></li>
+					<li><a href=''>Отпразновать</a></li>
+					<li><a href=''>Помажорить</a></li>
+				</ul>
+			</nav>
+			<div class="badge bottom">
+				<button class="btn">Добавить рецепт</button>
+			</div>
+		</div>
+
+		<div class="page">
+			<header>
+				<div class="clerfix">
+					<div class="left">
+						<form class="search" action="">
+							<div class="input-icon">
+								<input type="text" ng-model='search' placeholder='Поиск...'>
+								<span class="icon-search"><i class="fa fa-search"></i></span>
+							</div>
+						</form>
+					</div>
+					<div class="right">
+						<div class="user">
+							Семченко Вячеслав
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="content">
+				<main class="animate" ng-view></main>
+			</section>
+
+		</div>
+
+	</div>
+
+</body>
+</html>
