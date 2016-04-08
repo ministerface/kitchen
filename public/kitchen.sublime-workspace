@@ -1,0 +1,837 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"page"
+			],
+			[
+				"page",
+				"pages	(app.js)"
+			],
+			[
+				"ma",
+				"major	(index.html)"
+			],
+			[
+				"П",
+				"Помажорить	(index.html)"
+			],
+			[
+				"О",
+				"Отпразновать	(index.html)"
+			],
+			[
+				"di",
+				"dinner	(index.html)"
+			],
+			[
+				"По",
+				"Поужинать	(index.html)"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"path",
+				"pathCtrl	(app.js)"
+			],
+			[
+				"ng",
+				"ng-class	AngularJS"
+			],
+			[
+				"B",
+				"breakfast"
+			],
+			[
+				"ng-w",
+				"ng-view	AngularJS"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"re",
+				"recipe"
+			],
+			[
+				"r",
+				"recipes	(app.js)"
+			],
+			[
+				"rec",
+				"recipeCtrl	(app.js)"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"ng-",
+				"ng-bind	AngularJS"
+			],
+			[
+				"core",
+				"coreCtrl	(app.js)"
+			],
+			[
+				"Inli",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"nav",
+				"navigateCtrl	(navigateModule.js)"
+			],
+			[
+				"navigate",
+				"navigateController	(navigateModule.js)"
+			],
+			[
+				"na",
+				"navigateCtrl"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"site",
+				"site_domains"
+			],
+			[
+				"conti",
+				"apd_continue"
+			],
+			[
+				"fora",
+				"foreach	foreach …"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"max-h",
+				"max-height"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"toke",
+				"tokenInfo"
+			],
+			[
+				"fol",
+				"Folder"
+			],
+			[
+				"data",
+				"DataExcel"
+			],
+			[
+				"ar",
+				"ArExcelData"
+			],
+			[
+				"pro",
+				"ProjectPaths"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"co",
+				"compareImgPath"
+			],
+			[
+				"da",
+				"DataImgPAth"
+			],
+			[
+				"skidka",
+				"Skidka"
+			],
+			[
+				"prices",
+				"pricesi"
+			],
+			[
+				"pricepa",
+				"pricepasport"
+			],
+			[
+				"pricege",
+				"pricegenplan"
+			],
+			[
+				"Top",
+				"Top"
+			],
+			[
+				"Price",
+				"PriceAR"
+			],
+			[
+				"ex",
+				"ExcelPath"
+			],
+			[
+				"text-t",
+				"text-decoration"
+			],
+			[
+				"price",
+				"pricear"
+			],
+			[
+				"arr",
+				"arr_message_id"
+			],
+			[
+				"ecelpa",
+				"ExcelPath"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"User",
+				"User_ID"
+			],
+			[
+				"com",
+				"compares"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"PRI",
+				"print_r"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"sAR",
+				"sARKRIR"
+			],
+			[
+				"sARKR",
+				"sARKRIR"
+			],
+			[
+				"s",
+				"skidkaARKR"
+			],
+			[
+				"ski",
+				"skidkaARKR"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 138.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/stimdon/kitchen/public"
+	],
+	"file_history":
+	[
+		"/home/stimdon/kitchen/public/app/js/routing/pageCtrl.js",
+		"/home/stimdon/kitchen/public/app/js/routing/config.js",
+		"/home/stimdon/kitchen/public/app/js/app.js",
+		"/home/stimdon/kitchen/public/app/style/app.css",
+		"/home/stimdon/kitchen/public/index.html",
+		"/tmp/2-app.css",
+		"/tmp/1-app.css",
+		"/home/stimdon/kitchen/public/app/js/mykitchen/mykitchen.html",
+		"/home/stimdon/kitchen/public/app/js/breakfast/breakfast.html",
+		"/home/stimdon/Загрузки/Settings.html",
+		"/home/stimdon/Загрузки/RecordTemplate.html",
+		"/home/stimdon/kitchen/index.js",
+		"/home/stimdon/appneww/app/style/app.css",
+		"/home/stimdon/appneww/app/js/app.js",
+		"/home/stimdon/appneww/index.html",
+		"/home/stimdon/appneww/site.js",
+		"/home/stimdon/appneww/gulp.js",
+		"/home/stimdon/appneww/gulpfile.js",
+		"/tmp/2-mobile.css",
+		"/home/stimdon/appneww/build/all.js",
+		"/home/stimdon/appneww/app/style/default.css",
+		"/home/stimdon/appneww/app/app.js",
+		"/tmp/1-demo.css",
+		"/home/stimdon/angular-new/package.json",
+		"/home/stimdon/angular-new/gulp.js",
+		"/home/stimdon/angular/gulpfile.js",
+		"/tmp/1-mobile.css",
+		"/home/stimdon/angular/app/component/navigate/navigateModule.js",
+		"/home/stimdon/angular/app/component/products/productModule.js",
+		"/home/stimdon/angular/app/index.html",
+		"/home/stimdon/angular/app/app.js",
+		"/home/stimdon/angular/package.json",
+		"/tmp/1-styles.css",
+		"/tmp/1-style.css",
+		"/tmp/1-vars.inc.php",
+		"/tmp/2-cross_pr.php",
+		"/tmp/2-cross.js",
+		"/tmp/2-cross_ruplans.js",
+		"/tmp/1-cross.js",
+		"/tmp/1-cross_pr.php",
+		"/tmp/3-cross.js",
+		"/tmp/1-cross_ruplans.js",
+		"/tmp/1-shop.js",
+		"/tmp/2-style.css",
+		"/tmp/2-responsive.css",
+		"/home/stimdon/angular/app/app.css",
+		"/tmp/1-responsive.css",
+		"/tmp/1-crontab.php",
+		"/home/stimdon/Рабочий стол/netcat/netcat/lib/indexer.php",
+		"/home/stimdon/Рабочий стол/netcat/netcat/lib/area.php",
+		"/tmp/6-rule.php",
+		"/tmp/8-indexer.php",
+		"/tmp/11-area.php",
+		"/tmp/10-site.php",
+		"/home/stimdon/Рабочий стол/netcat/netcat/lib/area/site.php",
+		"/home/stimdon/Рабочий стол/netcat/netcat/lib/rule.php",
+		"/tmp/1-nc_authex.class.php",
+		"/tmp/1-sub.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/area/sub.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/area/allsites.php",
+		"/tmp/2-allsites.php",
+		"/tmp/2-part.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/area/site.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/area.php",
+		"/tmp/4-manager.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/indexer/link/manager.php",
+		"/tmp/7-indexer.php",
+		"/tmp/1-data.php",
+		"/tmp/6-task.php",
+		"/tmp/4-link.php",
+		"/tmp/5-manager.php",
+		"/tmp/5-link.php",
+		"/tmp/10-area.php",
+		"/tmp/9-site.php",
+		"/tmp/5-rule.php",
+		"/tmp/1-allsites.php",
+		"/tmp/6-indexer.php",
+		"/tmp/4-rule.php",
+		"/tmp/9-area.php",
+		"/tmp/5-indexer.php",
+		"/tmp/8-area.php",
+		"/tmp/3-rule.php",
+		"/tmp/5-task.php",
+		"/tmp/2-runner.php",
+		"/tmp/8-site.php",
+		"/tmp/6-area.php",
+		"/tmp/4-task.php",
+		"/tmp/7-area.php",
+		"/tmp/1-part.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/indexer.php",
+		"/tmp/5-area.php",
+		"/tmp/4-indexer.php",
+		"/tmp/6-site.php",
+		"/tmp/7-site.php",
+		"/tmp/1-exception.php",
+		"/tmp/1-response.php",
+		"/tmp/1-crawler.php",
+		"/tmp/2-web.php",
+		"/home/stimdon/Рабочий стол/netcat/modules/search/lib/indexer/task.php",
+		"/tmp/1-web.php",
+		"/tmp/1-interrupted.php",
+		"/tmp/3-link.php",
+		"/tmp/1-runner.php",
+		"/tmp/3-indexer.php",
+		"/tmp/3-task.php",
+		"/tmp/4-area.php",
+		"/tmp/4-site.php",
+		"/tmp/2-rule.php",
+		"/tmp/5-site.php",
+		"/tmp/3-manager.php",
+		"/tmp/1-provider.php",
+		"/home/stimdon/Рабочий стол/netcat/netcat/lib/indexer/task.php",
+		"/tmp/2-task.php",
+		"/tmp/1-page.php",
+		"/tmp/4-crontab.php",
+		"/tmp/1-indexer.php",
+		"/tmp/1-area.php",
+		"/tmp/1-rule.php",
+		"/tmp/1-site.php",
+		"/tmp/1-manager.php",
+		"/tmp/1-link.php",
+		"/tmp/1-task.php",
+		"/tmp/2-area.php",
+		"/tmp/2-indexer.php",
+		"/tmp/3-area.php",
+		"/tmp/2-site.php",
+		"/tmp/2-manager.php",
+		"/tmp/2-link.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/home/stimdon/Рабочий стол/Безымянная папка 4"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".phone-listing",
+			"part",
+			"checked_scheme",
+			"$checked_scheme",
+			"matches",
+			"11",
+			"https",
+			"http",
+			"https",
+			"netcat/add",
+			"get_area",
+			"get",
+			"load",
+			"ids",
+			"$ids",
+			"ids",
+			"get",
+			"hal",
+			"process",
+			"get",
+			"et_area",
+			"get",
+			"https",
+			"ids",
+			"https",
+			"su",
+			"ыг",
+			"area",
+			"get_area",
+			"get_input",
+			"process",
+			"array",
+			"process",
+			"getStandardPort",
+			"attach",
+			"host",
+			"http",
+			"https",
+			"_url",
+			"https",
+			"setURL",
+			"https",
+			"http",
+			"https",
+			"add_links",
+			"loop",
+			"filter_links",
+			"Added link to the queue",
+			"add_links",
+			"et_area",
+			"get_urls",
+			"add_link",
+			"http",
+			"https",
+			"http",
+			"call_user_func_array",
+			"halt",
+			"http",
+			"htt",
+			"http",
+			"https",
+			"http",
+			"https",
+			"process",
+			"http",
+			"https",
+			"http",
+			"https",
+			"http",
+			"process",
+			"process_request",
+			"индек",
+			"process",
+			"process_reques",
+			"nc_search",
+			"code",
+			"old_",
+			"old",
+			" old",
+			" old_banID",
+			"nmb",
+			"list",
+			"campaign_id",
+			"CAMPAIGN_TABLE",
+			"number",
+			"$number",
+			"mail",
+			"get_sender_address",
+			"testMode",
+			"TARGET_TEST_URL",
+			"@2",
+			"ajax",
+			"$.ajax",
+			"/dir/ajax/",
+			"image",
+			"font-family",
+			"font-fa",
+			"add",
+			"make_user",
+			"oauth_user_id",
+			"$oauth_user_id",
+			"make_auth_url",
+			"nc_auth_oauth",
+			"$nc_auth_oauth",
+			"make_auth_url",
+			"http://vk",
+			"дРУГОЕ",
+			"Prochie",
+			"Dru",
+			"dopharak",
+			"другое",
+			"feed",
+			"mymod",
+			">get_access_token",
+			"get_redirect_uri",
+			"pr_tokenURL",
+			"э",
+			"get_redirect_uri",
+			"get_access_token",
+			"nc_auth_oauth",
+			"$nc_auth_oauth",
+			"get_access_token",
+			"Roboto Condensed New",
+			"robotocondensed-",
+			"roboto-",
+			"http",
+			".=",
+			"raz4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".items .item",
+			"roboto_condensedregular",
+			"/css/font/roboto/roboto-",
+			"TipObjectVip",
+			"\\nsleep 2;\\n",
+			"&sdtype=A&addr=89.108.107.137\"\\nsleep 2;",
+			"&sdtype=A&addr=89.108.107.137\"\\nsleep 2;\\n",
+			"\\nwget \"https://delta.netbreeze.net:1500/ispmgr?out=text&authinfo=user:pass&func=domain.sublist.edit&sok=yes&plid=ruplans.ru&name=",
+			"\\nwget \"https://delta.netbreeze.net:1500/ispmgr?out=text&authinfo=user:pass&func=domain.sublist.edit&sok=yes&plid=",
+			"\\n wget \"https://delta.netbreeze.net:1500/ispmgr?out=text&authinfo=user:pass&func=domain.sublist.edit&sok=yes&plid=",
+			"vipplan",
+			" www.",
+			"    IN      A       89.108.106.204",
+			"\\n",
+			"/n",
+			"    IN      A       89.108.106.204",
+			"rosproect",
+			"ruplans",
+			" ",
+			"|",
+			".",
+			"ruplans",
+			"",
+			"\\.",
+			"ml",
+			" ",
+			"'",
+			"\"",
+			"li",
+			"",
+			"/img/drop",
+			"../img/drop",
+			"</a>, ",
+			"",
+			"td"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "",
+	"project": "kitchen.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

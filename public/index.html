@@ -13,6 +13,7 @@
 	<script src="app/js/app.js"></script>
 	<script src="app/js/routing/config.js"></script>
 	<script src="app/js/routing/pageCtrl.js"></script>
+	<script src="app/js/filter/filters.js"></script>
 </head>
 
 <body ng-app="kitchenApp">
@@ -22,9 +23,13 @@
 			<div class="logo"><img src="app/image/logo.png" alt=""></div>
 			<nav>
 				<ul ng-controller="pathController as pathCtrl">
+					<li ng-repeat="page in pathCtrl.pages" 
+						ng-class="{ active: pathCtrl.isActive('{{page.href}}')}" 
+						class="{{page.class}}">
 
-					<li ng-repeat="page in pathCtrl.pages" ng-class="{ active: pathCtrl.isActive('{{page.href}}')}" class="{{page.class}}"><a href='{{page.href}}'>{{page.name}}</a></li>
+						<a href='{{page.href}}'>{{page.name}}</a>
 
+					</li>
 				</ul>
 			</nav>
 			<div class="badge bottom">

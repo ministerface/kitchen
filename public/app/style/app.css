@@ -254,6 +254,13 @@ header .user:before {
   }
 }
 
+@media only screen and (max-width: 1920px) {
+  .items .item {
+    width: 20%;
+  }
+}
+
+
 @media only screen and (max-width: 1440px) {
   .items .item {
     width: 20%;

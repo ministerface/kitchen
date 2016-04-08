@@ -4,7 +4,7 @@
 * Description
 */
 
-angular.module('kitchenApp', ['ngAnimate','kitchenApp.routing'])
+angular.module('kitchenApp', ['ngAnimate','kitchenApp.routing','kitchenApp.filters'])
 	.controller('recipesController',function(){
 		var recipeCtrl = this;
 
