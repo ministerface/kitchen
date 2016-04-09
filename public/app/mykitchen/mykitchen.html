@@ -1,0 +1,13 @@
+<h1>Моя кухня</h1>
+	<div class="items" ng-controller="recipesController as recipeCtrl">
+		<div class="item" ng-repeat="recipe in recipeCtrl.recipes | filterRecipes: search">
+			<figure>
+				<img ng-src="{{recipe.images.imageBig}}" alt="">
+			</figure>
+			<h3 ng-bind="recipe.name"></h3>
+			<ul>
+				<li><img src="image/square.png"><span ng-bind="recipe.time"></span> мин.</li>
+				<li><span ng-bind="recipe.price"></span> <img src="image/money.png"></li>
+			</ul>
+		</div>
+	</div>

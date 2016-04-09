@@ -4,27 +4,20 @@
 	<meta charset="UTF-8">
 	<base href="/">
 	<title>Kitchen - Готовь как Бог!</title>
-	<link rel="stylesheet" href="app/style/default.css">
-	<link rel="stylesheet" href="app/style/app.css">
+	<link rel="stylesheet" href="style/default.css">
+	<link rel="stylesheet" href="style/app.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
-	<script src="app/js/app.js"></script>
-	<script src="app/js/routing/config.js"></script>
-	<script src="app/js/routing/pageCtrl.js"></script>
-	<script src="app/js/filter/filters.js"></script>
 </head>
 
 <body ng-app="kitchenApp">
 	<div class="wrapper">
 
 		<div class="sidebar">
-			<div class="logo"><img src="app/image/logo.png" alt=""></div>
+			<div class="logo"><img src="image/logo.png" alt=""></div>
 			<nav>
 				<ul ng-controller="pathController as pathCtrl">
-					<li ng-repeat="page in pathCtrl.pages" 
-						ng-class="{ active: pathCtrl.isActive('{{page.href}}')}" 
+					<li ng-repeat="page in pathCtrl.pages"
+						ng-class="{ active: pathCtrl.isActive('{{page.href}}')}"
 						class="{{page.class}}">
 
 						<a href='{{page.href}}'>{{page.name}}</a>
@@ -62,6 +55,15 @@
 		</div>
 
 	</div>
+
+
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/routing/config.js"></script>
+	<script src="app/routing/pageCtrl.js"></script>
+	<script src="app/filter/filters.js"></script>
 
 </body>
 </html>
