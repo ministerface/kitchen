@@ -1,14 +1,14 @@
-/**
-* kitchenApp Modul
-*
-* Description
-*/
+(function(){
+	'use strict';
 
-angular.module('kitchenApp', ['ngAnimate','kitchenApp.routing','kitchenApp.filters'])
-	.controller('recipesController',function(){
-		var recipeCtrl = this;
+	angular
+    	.module('kitchenApp')
+    	.controller('lunchController', LunchCtrl);
 
-		recipeCtrl.recipes = [
+    function LunchCtrl() {
+		var lunchCtrl = this;
+
+		lunchCtrl.recipes = [
 			{
 				name: 'Рулька запеченная в духовке с розмарином',
 				price: 1000,
@@ -89,5 +89,7 @@ angular.module('kitchenApp', ['ngAnimate','kitchenApp.routing','kitchenApp.filte
 					imageBig: 'image/food9.jpg'
 				}
 			}
-		]
-	});
+		];
+	}
+
+})();

@@ -1,0 +1,9 @@
+<h1>Отобедать</h1>
+	<div class="items">
+		<div class="item" ng-repeat="recipe in lunchCtrl.recipes | filterRecipes: search">
+			<figure>
+				<img ng-src="{{recipe.images.imageBig}}" alt="">
+			</figure>
+			<h3 ng-bind="recipe.name"></h3>
+		</div>
+	</div>

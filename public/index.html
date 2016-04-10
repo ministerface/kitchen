@@ -15,9 +15,9 @@
 		<div class="sidebar">
 			<div class="logo"><img src="image/logo.png" alt=""></div>
 			<nav>
-				<ul ng-controller="pathController as pathCtrl">
-					<li ng-repeat="page in pathCtrl.pages"
-						ng-class="{ active: pathCtrl.isActive('{{page.href}}')}"
+				<ul ng-controller="sidebarController as sidebarCtrl">
+					<li ng-repeat="page in sidebarCtrl.pages"
+						ng-class="{ active: sidebarCtrl.isActive('{{page.href}}')}"
 						class="{{page.class}}">
 
 						<a href='{{page.href}}'>{{page.name}}</a>
@@ -60,10 +60,12 @@
 	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
-	<script src="app/app.js"></script>
-	<script src="app/routing/config.js"></script>
-	<script src="app/routing/pageCtrl.js"></script>
+	<script src="app/app.module.js"></script>
+	<script src="app/app.routes.js"></script>
 	<script src="app/common/filters/filterSearchAll.js"></script>
-
+	<script src="app/layout/sidebar/sidebarCtrl.js"></script>
+	<script src="app/mykitchen/mykitchenCtrl.js"></script>
+	<script src="app/breakfast/breakfastCtrl.js"></script>
+	<script src="app/lunch/lunchCtrl.js"></script>
 </body>
 </html>

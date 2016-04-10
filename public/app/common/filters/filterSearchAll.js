@@ -1,3 +1,4 @@
+(function() {
 'use strict';
 
 /**
@@ -6,7 +7,9 @@
 * Description
 */
 angular.module('kitchenApp.filters', [])
-	.filter('filterRecipes', function () {
+	.filter('filterRecipes', FilterRecipes);
+
+	function FilterRecipes() {
   		return function (items, searchs) {
     		var filtered = [];
 
@@ -38,4 +41,6 @@ angular.module('kitchenApp.filters', [])
 
     		return filtered;
   		};
-	});
+	}
+
+})();

@@ -1,6 +1,6 @@
 <h1>Позавтракать</h1>
-	<div class="items" ng-controller="recipesController as recipeCtrl">
-		<div class="item" ng-repeat="recipe in recipeCtrl.recipes | filterRecipes: search">
+	<div class="items">
+		<div class="item" ng-repeat="recipe in breakfastCtrl.recipes | filterRecipes: search">
 			<figure>
 				<img ng-src="{{recipe.images.imageBig}}" alt="">
 			</figure>
