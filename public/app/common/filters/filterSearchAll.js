@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	angular.module('kitchenApp.filters', [])
+	angular.module('kitchen.filters', [])
 		.filter('filterRecipes', FilterRecipes);
 
 	function FilterRecipes() {

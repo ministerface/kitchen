@@ -2,10 +2,10 @@
 	'use strict';
 
 	angular
-		.module('kitchenApp', [
+		.module('kitchen', [
 			'ngAnimate',
-			'ngRoute',
-			'kitchenApp.filters'
+			'kitchen.router',
+			'kitchen.filters'
 		]);
 
 })();

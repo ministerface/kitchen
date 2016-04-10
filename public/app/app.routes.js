@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('kitchenApp')
+    .module('kitchen.router', ['ngRoute'])
   	.config(ConfigRoutes);
 
   ConfigRoutes.$inject = ['$routeProvider', '$locationProvider'];

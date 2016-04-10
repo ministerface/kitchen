@@ -1,6 +1,6 @@
 (function(){
 	angular
-    .module('kitchenApp')
+    .module('kitchen')
     .controller('mykitchenController', MykitchenController);
 
   function MykitchenController() {

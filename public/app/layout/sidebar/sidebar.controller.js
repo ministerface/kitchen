@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('kitchenApp')
+		.module('kitchen')
 		.controller('sidebarController', SidebarController);
 
 	SidebarController.$inject = ['$location'];
