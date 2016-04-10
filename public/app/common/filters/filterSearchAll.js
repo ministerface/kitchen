@@ -1,23 +1,17 @@
 (function() {
-'use strict';
+	'use strict';
 
-/**
-* kitchenApp.filters Module
-*
-* Description
-*/
-angular.module('kitchenApp.filters', [])
-	.filter('filterRecipes', FilterRecipes);
+	angular.module('kitchenApp.filters', [])
+		.filter('filterRecipes', FilterRecipes);
 
 	function FilterRecipes() {
-  		return function (items, searchs) {
-    		var filtered = [];
-
-    		for (var i = 0; i < items.length; i++) {
-      			var item = items[i];
+		return function (items, searchs) {
+	  	var filtered = [];
+	  	for (var i = 0; i < items.length; i++) {
+	    	var item = items[i];
 				if(searchs){
 					var match = function (item1, val) {
-					    val = val.toLowerCase();
+						val = val.toLowerCase();
 						for (var p in item1) {
 							if(typeof(item1[p]) != 'object') {
 								if(item1[p].toString().toLowerCase().indexOf(val) >= 0){
@@ -25,22 +19,20 @@ angular.module('kitchenApp.filters', [])
 								}
 							}
 						}
-  					}
+					}
 					var matched = true;
 					searchs.split(' ').forEach(function(token) {
-			        	matched = matched && match(item, token);
-			    	});
-
+			       matched = matched && match(item, token);
+			    });
 					if (matched) {
 						filtered.push(item);
 					}
 				} else {
 					filtered.push(item);
 				}
-    		}
-
-    		return filtered;
-  		};
+	  	}
+	  	return filtered;
+		};
 	}
 
 })();

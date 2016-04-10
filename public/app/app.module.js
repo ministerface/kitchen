@@ -1,16 +1,11 @@
-/**
-* kitchenApp Modul
-*
-* Description
-*/
 (function(){
-'use strict';
+	'use strict';
 
-angular
-	.module('kitchenApp', [
-		'ngAnimate',
-		'ngRoute',
-		'kitchenApp.filters'
-	]);
+	angular
+		.module('kitchenApp', [
+			'ngAnimate',
+			'ngRoute',
+			'kitchenApp.filters'
+		]);
 
 })();

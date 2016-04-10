@@ -1,9 +1,9 @@
 (function(){
 	angular
-    	.module('kitchenApp')
-    	.controller('mykitchenController', MykitchenCtrl);
+    .module('kitchenApp')
+    .controller('mykitchenController', MykitchenCtrl);
 
-    function MykitchenCtrl() {
+  function MykitchenCtrl() {
 		var mykitchenCtrl = this;
 
 		mykitchenCtrl.recipes = [
@@ -89,4 +89,5 @@
 			}
 		];
 	}
+
 })();

@@ -1,9 +1,9 @@
 (function(){
-'use strict';
+	'use strict';
 
-angular
-	.module('kitchenApp')
-	.controller('sidebarController', SidebarController);
+	angular
+		.module('kitchenApp')
+		.controller('sidebarController', SidebarController);
 
 	function SidebarController($location) {
 		var sidebarCtrl = this;
@@ -41,8 +41,8 @@ angular
 		];
 
 		sidebarCtrl.isActive = function (viewLocation) {
-	        return viewLocation === $location.path();
-	    };
+	    return viewLocation === $location.path();
+	  };
 	}
 
 })();

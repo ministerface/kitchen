@@ -2,10 +2,10 @@
 	'use strict';
 
 	angular
-    	.module('kitchenApp')
-    	.controller('lunchController', LunchCtrl);
+    .module('kitchenApp')
+    .controller('lunchController', LunchCtrl);
 
-    function LunchCtrl() {
+  function LunchCtrl() {
 		var lunchCtrl = this;
 
 		lunchCtrl.recipes = [
