@@ -5,7 +5,9 @@
     .module('kitchenApp')
   	.config(ConfigRoutes);
 
-  function ConfigRoutes ($routeProvider, $locationProvider) {
+  ConfigRoutes.$inject = ['$routeProvider', '$locationProvider'];
+
+  function ConfigRoutes($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
     $routeProvider.
       when('/', {

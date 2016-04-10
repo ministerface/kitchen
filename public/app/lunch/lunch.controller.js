@@ -1,12 +1,14 @@
 (function(){
+	'use strict';
+
 	angular
     .module('kitchenApp')
-    .controller('breakfastController', BreakfastCtrl);
+    .controller('lunchController', LunchController);
 
-  function BreakfastCtrl() {
-		var breakfastCtrl = this;
+  function LunchController() {
+		var lunchCtrl = this;
 
-		breakfastCtrl.recipes = [
+		lunchCtrl.recipes = [
 			{
 				name: 'Рулька запеченная в духовке с розмарином',
 				price: 1000,

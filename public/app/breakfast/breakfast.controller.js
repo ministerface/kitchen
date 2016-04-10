@@ -1,12 +1,12 @@
 (function(){
 	angular
     .module('kitchenApp')
-    .controller('mykitchenController', MykitchenCtrl);
+    .controller('breakfastController', BreakfastController);
 
-  function MykitchenCtrl() {
-		var mykitchenCtrl = this;
+  function BreakfastController() {
+		var breakfastCtrl = this;
 
-		mykitchenCtrl.recipes = [
+		breakfastCtrl.recipes = [
 			{
 				name: 'Рулька запеченная в духовке с розмарином',
 				price: 1000,

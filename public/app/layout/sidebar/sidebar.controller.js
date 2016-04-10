@@ -5,6 +5,8 @@
 		.module('kitchenApp')
 		.controller('sidebarController', SidebarController);
 
+	SidebarController.$inject = ['$location'];
+
 	function SidebarController($location) {
 		var sidebarCtrl = this;
 		sidebarCtrl.pages = [
