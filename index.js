@@ -1,22 +1,20 @@
 
 var express = require('express');
+var mongoose = require('mongoose');
 var bodyParser = require('body-parser')
 var path = require('path')
+
+
+mongoose.connect('mongodb://localhost/kitchen_db');
+
 var app = express();
-
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var port = 8080;
 
 
-
-
-
-app.get('/api', function(req, res) {
-    res.json({ message: 'Zaebiss! welcome to our api!' });   
-});
+app.use('/api', require('./backend/routes/api'));
 
 
 app.use(express.static(__dirname + '/public'));
