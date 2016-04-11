@@ -13,31 +13,37 @@
 			{
 				name:'Моя кухня',
 				class:'kitchen',
+				sref:'mykitchen',
 				href:'/'
 			},
 			{
 				name:'Позавтракать',
 				class:'breakfast',
+				sref:'breakfast',
 				href:'/breakfast'
 			},
 			{
 				name:'Отобедать',
 				class:'lunch',
+				sref:'lunch',
 				href:'/lunch'
 			},
 			{
 				name:'Поужинать',
 				class:'dinner',
+				sref:'dinner',
 				href:'/dinner'
 			},
 			{
 				name:'Отпразновать',
 				class:'celebration',
+				sref:'celebration',
 				href:'/celebration'
 			},
 			{
 				name:'Помажорить',
 				class:'major',
+				sref:'major',
 				href:'/major'
 			},
 		];

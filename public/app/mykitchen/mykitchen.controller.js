@@ -1,9 +1,9 @@
 (function(){
 	angular
-    .module('kitchen')
-    .controller('mykitchenController', MykitchenController);
+    	.module('kitchen')
+    	.controller('mykitchenController', MykitchenController);
 
-  function MykitchenController() {
+  	function MykitchenController() {
 		var mykitchenCtrl = this;
 
 		mykitchenCtrl.recipes = [
