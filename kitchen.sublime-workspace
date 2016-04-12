@@ -1,0 +1,662 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rec",
+				"recipe	(api.js)"
+			],
+			[
+				"res",
+				"recipeSchema"
+			],
+			[
+				"mod",
+				"module	(api.js)"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"re",
+				"restful"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"fu",
+				"function	(index.js)"
+			],
+			[
+				"mono",
+				"mongodb	(package.json)"
+			],
+			[
+				"s",
+				"sidebar"
+			],
+			[
+				"a",
+				"app	(app.routes.js)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"ht",
+				"https"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"cler",
+				"clear"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"list-style-",
+				"list-style-type"
+			],
+			[
+				"PAD",
+				"padding-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"serv",
+				"http.createServer(requestListener);"
+			],
+			[
+				"com",
+				"console.log(message);"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"le",
+				"letter-spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "(function() {\n	'use strict';\n\n	app.\n\n})();",
+			"file": "public/app/common/services/http.service.js",
+			"file_size": 0,
+			"file_write_time": 131049558211744609,
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 156.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"sf",
+				"SFTP: Map to Remote…"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"`git clone https://github.com/tanepiper/SublimeText-Nodejs \"%APPDATA%\\Sublime Text 2\\Packages\\Nodejs\"`",
+			"git status",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Вячеслав/project/kitchen",
+		"/C/Users/Вячеслав/project/kitchen/public",
+		"/C/Users/Вячеслав/project/kitchen/public/app",
+		"/C/Users/Вячеслав/project/kitchen/public/app/common"
+	],
+	"file_history":
+	[
+		"/C/Users/Вячеслав/project/kitchen/public/app/app.routes.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/app.module.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/breakfast/breakfast.controller.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/common/filters/filterSearchAll.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/layout/sidebar/sidebar.controller.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/lunch/lunch.controller.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/mykitchen/mykitchen.controller.js",
+		"/C/Users/Вячеслав/project/kitchen/public/index.html",
+		"/C/Users/Вячеслав/project/kitchen/public/app/breakfast/breakfast.html",
+		"/C/Users/Вячеслав/project/kitchen/public/app/lunch/lunch.html",
+		"/C/Users/Вячеслав/project/kitchen/public/app/layout/sidebar/sidebarCtrl.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/mykitchen/mykitchenCtrl.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/mykitchen/mykitchen.html",
+		"/C/Users/Вячеслав/project/kitchen/public/app/breakfast/breakfastCtrl.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/layout/sidebar/sidebar.html",
+		"/C/Users/Вячеслав/project/kitchen/public/app/routing/config.js",
+		"/C/Users/Вячеслав/project/kitchen/public/app/app.js",
+		"/C/Users/Вячеслав/Desktop/kitchen/public/app/style/app.css",
+		"/C/Users/Вячеслав/project/kitchen/public/app/style/app.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-styles.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-styles1.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-styles1.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/3-styles1.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-styles.css",
+		"/C/Users/Вячеслав/Desktop/startbootstrap-sb-admin-2-1.0.8/less/variables.less",
+		"/C/Users/Вячеслав/Desktop/startbootstrap-sb-admin-2-1.0.8/less/mixins.less",
+		"/C/Users/Вячеслав/Desktop/startbootstrap-sb-admin-2-1.0.8/less/sb-admin-2.less",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Вячеслав/Desktop/startbootstrap-sb-admin-2-1.0.8/dist/js/sb-admin-2.js",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-main.js",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-secire-transaction.js",
+		"/C/Users/Вячеслав/AppData/Local/Temp/4-styles1.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/5-styles1.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-style.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-style.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/3-login.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-work.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-cross_pr.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-login.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-login.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/Rar$EXa0.395/faq-template/index.html",
+		"/C/OpenServer/domains/skybuy2.ru/js/skydeal_scripts.js",
+		"/C/GnuWin32/bin/symu.co/index.html",
+		"/C/Users/Вячеслав/Desktop/symu.co/index.html",
+		"/C/GnuWin32/bin/symu.co1/cache/resources/1358b9a640e7d5e33e6b03bdca37f932.css",
+		"/C/Users/Вячеслав/Desktop/symu.co/js/app.js",
+		"/C/Users/Вячеслав/Desktop/symu.co/css/styles.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-jquery.prettyPhoto.js",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-prettyPhoto.css",
+		"/C/Users/Вячеслав/Desktop/Template/index.html@page=home.html",
+		"/C/Users/Вячеслав/Desktop/Template/js/main.js",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-style_selector.js",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-style_selector.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-jquery.qtip.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-odometer-theme-default.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-superfish.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-animations.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-settings.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-settings.css",
+		"/C/Users/Вячеслав/Desktop/netcat/modules/search1/lib1/admin/ui.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-ui.php",
+		"/C/Users/Вячеслав/Desktop/netcat/modules/search1/lib1/admin/controller.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/2-controller.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-setup.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-ui.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-function.inc.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-index.php",
+		"/C/Users/Вячеслав/Desktop/netcat/modules/search1/views/rules_edit.php",
+		"/C/Users/Вячеслав/AppData/Local/Temp/1-nc_a2f.class.php",
+		"/C/Users/Вячеслав/Desktop/netcat/connect_io.php",
+		"/C/Users/Вячеслав/Desktop/netcat/action.php",
+		"/C/Users/Вячеслав/Desktop/code.php",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/ministerface",
+		"/F/mf/sftp-config.json",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1437196785/ministerface/mfdesignes.com/public_html/css/style.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/Rar$DIa0.044/styles.css",
+		"/C/Users/Вячеслав/AppData/Local/Temp/Rar$EXa0.296/icons-reference.html",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/C/Users/Вячеслав/Desktop/Новая папка (3)/index.html",
+		"/C/Users/Вячеслав/Desktop/Новая папка (3)/style.css",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files/Sublime Text 3/fsdfsdf",
+		"/C/OpenServer/domains/material-start/app/index.html",
+		"/C/OpenServer/domains/angular-phonecat/app/templates/services.html",
+		"/C/OpenServer/domains/angular-phonecat/app/templates/about.html",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431707284/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431707209/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431707065/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706968/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706947/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706928/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706874/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706014/rupla/www/ruplans.ru/muratorup.php",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705928/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705971/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706054/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431706761/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705786/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431701417/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431701302/rupla/www/ruplans.ru/script/goods.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431704973/rupla/www/ruplans.ru/cp/php/ajax.php",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705204/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705340/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705723/rupla/www/ruplans.ru/muratorup.php",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705691/rupla/www/ruplans.ru/cp/php/ajaxSkidka.php",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431705653/rupla/www/ruplans.ru/script/goods1.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431700995/rupla/www/ruplans.ru/script/goods.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431701088/rupla/www/ruplans.ru/script/goods.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431700943/rupla/www/ruplans.ru/script/goods.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431700638/rupla/www/ruplans.ru/script/goods.xml",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1431700542/rupla/www/ruplans.ru/script/goods.xml",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/rupla",
+		"/C/Users/Вячеслав/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/rup",
+		"/C/openserver/domains/resume.ru/print.html",
+		"/C/openserver/domains/resume.ru/index.html",
+		"/C/openserver/domains/sv.ru/index.html",
+		"/C/OpenServer/domains/sv.ru/style/style.css",
+		"/C/users/2c82~1/appdata/local/temp/sublime-sftp-browse-1430638722/ministerface/mfland.ru/hub.git/hooks/post-update",
+		"/C/OpenServer/domains/resume.ru/index.html",
+		"/C/OpenServer/domains/sv.ru/js/html5.js",
+		"/C/OpenServer/domains/sv.ru/custom_tools/js/custom-block.js",
+		"/E/web проекты/box/html/index.html",
+		"/C/OpenServer/domains/sv.ru/js/lib.js",
+		"/C/OpenServer/domains/sv.ru/js/utils.js",
+		"/C/OpenServer/domains/new.ru/css/component.css"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 183.0,
+		"where_history":
+		[
+			"C:\\Users\\Вячеслав\\Desktop\\Template",
+			"C:\\Users\\Вячеслав\\Desktop\\netcat,C:\\Users\\Вячеслав\\Desktop\\Template",
+			"C:\\Users\\Вячеслав\\Desktop\\netcat",
+			"C:\\OpenServer\\domains\\sv.ru",
+			"C:\\OpenServer\\domains\\euforia.ru,C:\\OpenServer\\domains\\new.ru,C:\\OpenServer\\domains\\new.ru",
+			"C:\\OpenServer\\domains\\euforia.ru,C:\\OpenServer\\domains\\new.ru",
+			"C:\\OpenServer\\domains\\euforia.ru,C:\\OpenServer\\domains\\mfland.ru",
+			"C:\\OpenServer\\domains\\euforia.ru"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"app/",
+			"prox",
+			".btn-danger:focus",
+			".btn-danger:focus, .btn-danger.focus",
+			"authorize_by_pass",
+			"authorize_by_pass\nauthorize_by_pass",
+			"authorize_by_pass",
+			"authorize_by_",
+			"authorize_by_pass",
+			".snippet_wrap",
+			"a {",
+			"bane",
+			"baner",
+			"addClass",
+			"sub",
+			"validate",
+			"registeruser",
+			"registerUser",
+			"getTop",
+			"img",
+			"freebies",
+			"images/",
+			"img",
+			"img/",
+			"img",
+			"fonts",
+			"max-width",
+			"@",
+			"width",
+			"with",
+			"/*",
+			"form",
+			"../images",
+			"images",
+			"map",
+			"overlay.png",
+			"preloader.gif",
+			"preloader",
+			"images/",
+			"../style_selector",
+			"images/",
+			"im",
+			"images",
+			"images/",
+			"src=\"images/",
+			"src=\"images",
+			"nc_a2f",
+			"https",
+			"HTTPS",
+			"Запрашивать страницы только по HTTPS",
+			"\"",
+			"h4",
+			"ad_",
+			"cas",
+			"cast",
+			".icon",
+			"ctrl+al",
+			"content",
+			"applica",
+			"aplication",
+			"aplic",
+			"custom-block.js",
+			"opt_block",
+			"opt",
+			"delay : 200,",
+			"#21ba49",
+			"#0088cc",
+			"#21ba49",
+			" Please leave a name",
+			" Please",
+			"#21ba49",
+			"#blog",
+			"#portfolio",
+			"#services",
+			"#about",
+			"#services ",
+			"#portfolio",
+			"#blog",
+			"..",
+			"md-setperspective",
+			"assets",
+			"/assets",
+			"assets",
+			"/assets",
+			"../euforia",
+			"euforia",
+			"../euforia",
+			"euforia",
+			"../../../euforia",
+			"/euforia",
+			"../euforia"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"image/",
+			"/img",
+			"img/",
+			"/style_selector",
+			"img/",
+			"src=\"img/",
+			".iconmf",
+			"delay : 10,",
+			"#0088cc",
+			"#ff1919",
+			"#0088cc",
+			"#landing",
+			"#shop",
+			"#corporate",
+			"#promo",
+			"#corporate",
+			"#shop",
+			"#landing",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/app/common/services/http.service.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 267.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "kitchen.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

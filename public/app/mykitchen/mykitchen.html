@@ -1,6 +1,6 @@
 <h1>Моя кухня</h1>
 	<div class="items">
-		<div class="item" ng-repeat="recipe in mykitchenCtrl.recipes | filterRecipes: search">
+		<div class="item" ng-repeat="recipe in mykitchenCtrl.recipes">
 			<figure>
 				<img ng-src="{{recipe.images.imageBig}}" alt="">
 			</figure>
