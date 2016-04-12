@@ -18,7 +18,6 @@ app.use('/api', require('./backend/routes/api'));
 
 
 app.use(express.static(__dirname + '/public'));
-// Here's the new code:
 app.use('*', function(req, res){
   res.sendfile(__dirname + '/public/index.html');
 });
