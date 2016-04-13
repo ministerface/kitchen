@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"request	(http.service.js)"
+			],
+			[
+				"co",
+				"common"
+			],
+			[
 				"rec",
 				"recipe	(api.js)"
 			],
@@ -18,10 +26,6 @@
 			[
 				"mo",
 				"mongoose"
-			],
-			[
-				"re",
-				"restful"
 			],
 			[
 				"req",
@@ -173,20 +177,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"contents": "(function() {\n	'use strict';\n\n	app.\n\n})();",
-			"file": "public/app/common/services/http.service.js",
-			"file_size": 0,
-			"file_write_time": 131049558211744609,
-			"settings":
-			{
-				"buffer_size": 42,
-				"line_ending": "Windows"
-			}
-		}
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -245,15 +235,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/Вячеслав/project/kitchen",
-		"/C/Users/Вячеслав/project/kitchen/public",
-		"/C/Users/Вячеслав/project/kitchen/public/app",
-		"/C/Users/Вячеслав/project/kitchen/public/app/common"
-	],
 	"file_history":
 	[
+		"/C/Users/Вячеслав/project/kitchen/public/app/mykitchen/mykitchen.html",
 		"/C/Users/Вячеслав/project/kitchen/public/app/app.routes.js",
 		"/C/Users/Вячеслав/project/kitchen/public/app/app.module.js",
 		"/C/Users/Вячеслав/project/kitchen/public/app/breakfast/breakfast.controller.js",
@@ -266,7 +250,6 @@
 		"/C/Users/Вячеслав/project/kitchen/public/app/lunch/lunch.html",
 		"/C/Users/Вячеслав/project/kitchen/public/app/layout/sidebar/sidebarCtrl.js",
 		"/C/Users/Вячеслав/project/kitchen/public/app/mykitchen/mykitchenCtrl.js",
-		"/C/Users/Вячеслав/project/kitchen/public/app/mykitchen/mykitchen.html",
 		"/C/Users/Вячеслав/project/kitchen/public/app/breakfast/breakfastCtrl.js",
 		"/C/Users/Вячеслав/project/kitchen/public/app/layout/sidebar/sidebar.html",
 		"/C/Users/Вячеслав/project/kitchen/public/app/routing/config.js",
@@ -532,47 +515,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "public/app/common/services/http.service.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 42,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 27.0
@@ -613,7 +555,6 @@
 		"height": 118.0
 	},
 	"pinned_build_system": "",
-	"project": "kitchen.sublime-project",
 	"replace":
 	{
 		"height": 76.0
@@ -646,7 +587,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},

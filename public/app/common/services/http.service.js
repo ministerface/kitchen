@@ -3,16 +3,16 @@
 
 	angular
 		.module('kitchen')
-		.factory('request', request);
+		.service('request', request);
 
 	request.$inject = ['$http'];
 
 	function request($http) {
+        var vs = this;
+            vs.newRecipe = [];
+        	vs.getRecipes = getRecipes;
+            vs.addRecipe = addRecipe;
 
-		return {
-        	getRecipes: getRecipes,
-            addRecipe: addRecipe
-    	};
 
     	function getRecipes() {
 
@@ -20,6 +20,7 @@
             	.then(getRecipesComplete);
 
         	function getRecipesComplete(response) {
+                vs.newRecipe = response.data;
             	return response.data;
         	}
     	}
@@ -30,12 +31,12 @@
             var req = {
                 method: 'POST',
                 url: 'http://localhost:8080/api/recipes',
-                data: { 
+                data: {
                     name: name,
                     price:price,
                     time: time,
                     images:{
-                        imageBig: imageBig   
+                        imageBig: imageBig
                     }
                 }
             }
@@ -44,8 +45,7 @@
                 .then(addRecipesComplete);
 
             function addRecipesComplete(response) {
-
-               
+                vs.newRecipe.unshift(response.data);
             }
         }
 
