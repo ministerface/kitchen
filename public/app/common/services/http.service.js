@@ -8,12 +8,10 @@
 	request.$inject = ['$http'];
 
 	function request($http) {
-        var allRecipe = [];
 
 		return {
         	getRecipes: getRecipes,
-            addRecipe: addRecipe,
-            allRecipe: allRecipe
+            addRecipe: addRecipe
     	};
 
     	function getRecipes() {
@@ -25,8 +23,6 @@
             	return response.data;
         	}
     	}
-
-
 
 
         function addRecipe(name, price, time, imageBig) {
@@ -48,7 +44,7 @@
                 .then(addRecipesComplete);
 
             function addRecipesComplete(response) {
-                allRecipe.push(response.data);
+
                
             }
         }
