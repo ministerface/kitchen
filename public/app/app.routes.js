@@ -41,7 +41,10 @@
     recipesPrepService.$inject = ['request'];
     
     function recipesPrepService(request) {
+
         return request.getRecipes();
+
+
     }
 
 

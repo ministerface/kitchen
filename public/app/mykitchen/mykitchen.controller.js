@@ -6,7 +6,10 @@
     MykitchenController.$inject = ['recipesPrepService', 'request'];
   	function MykitchenController(recipesPrepService, request) {
 		var mykitchenCtrl = this;
-		mykitchenCtrl.recipes = recipesPrepService;
+		request.allRecipe = recipesPrepService;
+		mykitchenCtrl.recipes = request.allRecipe;
+		//mykitchenCtrl.recipes = request.allRecipe;
+
 	}
 
 })();
