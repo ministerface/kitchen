@@ -3,29 +3,11 @@
     	.module('kitchen')
     	.controller('mykitchenController', MykitchenController);
 
-    MykitchenController.$inject = ['request'];
-  	function MykitchenController(request) {
+    MykitchenController.$inject = ['recipesPrepService'];
+  	function MykitchenController(recipesPrepService) {
 		var mykitchenCtrl = this;
 
-		mykitchenCtrl.recipes = [];
-
-		activate();
-
-		function activate() {
-        	return getRecipes().then(function() {
-            	console.log('Activated Avengers View');
-        	});
-    	}
-
-    	function getRecipes() {
-        	return request.getRecipes()
-            .then(function(data) {
-                mykitchenCtrl.recipes = data;
-                console.log(data);
-                return mykitchenCtrl.recipes;
-            });
-    	}
-
+		mykitchenCtrl.recipes = recipesPrepService;
 	}
 
 })();

@@ -18,7 +18,10 @@
                 url: "/",
                 templateUrl: "app/mykitchen/mykitchen.html",
                 controller: "mykitchenController",
-                controllerAs: "mykitchenCtrl"
+                controllerAs: "mykitchenCtrl",
+                resolve: {
+                    recipesPrepService: recipesPrepService
+                }
             })
             .state('breakfast', {
                 url: "/breakfast",
@@ -32,6 +35,14 @@
                 controller: 'lunchController as lunchCtrl',
                 controllerAs: 'lunchCtrl'
             });
+
     }
+
+    recipesPrepService.$inject = ['request'];
+    
+    function recipesPrepService(request) {
+        return request.getRecipes();
+    }
+
 
 })();

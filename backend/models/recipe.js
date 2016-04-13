@@ -3,9 +3,12 @@ var mongoose = restful.mongoose;
 
 
 var recipeSchema = new mongoose.Schema({
-	name: String,
-	price:Number,
-	time: Number
+	name:  String,
+	price: Number,
+	time:  Number,
+	images: {
+		imageBig: String
+	}
 });
 
 
