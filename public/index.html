@@ -25,8 +25,8 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="badge bottom">
-				<button class="btn">Добавить рецепт</button>
+			<div ng-controller="addRecipeController as addRecipeCtrl" class="badge bottom">
+				<button ng-click="addRecipeCtrl.addRecipe('Тест', 400, 30, 'image/food1.jpg')" class="btn">{{addRecipeCtrl.buttonText}}</button>
 			</div>
 		</div>
 
@@ -65,6 +65,7 @@
 	<script src="app/common/services/http.service.js"></script>
 	<script src="app/common/filters/filterSearchAll.js"></script>
 	<script src="app/layout/sidebar/sidebar.controller.js"></script>
+	<script src="app/common/controllers/addRecipe.contoller.js"></script>
 	<script src="app/mykitchen/mykitchen.controller.js"></script>
 	<script src="app/breakfast/breakfast.controller.js"></script>
 	<script src="app/lunch/lunch.controller.js"></script>
