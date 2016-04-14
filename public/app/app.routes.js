@@ -10,7 +10,6 @@
     function ConfigRoutes($stateProvider, $urlRouterProvider, $locationProvider) {
         $locationProvider.html5Mode(true);
 
-
         $urlRouterProvider.otherwise("/404");
  
         $stateProvider
@@ -35,17 +34,12 @@
                 controller: 'lunchController as lunchCtrl',
                 controllerAs: 'lunchCtrl'
             });
-
     }
 
     recipesPrepService.$inject = ['request'];
     
     function recipesPrepService(request) {
-
         return request.getRecipes();
-
-
     }
-
 
 })();

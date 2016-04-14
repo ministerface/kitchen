@@ -5,7 +5,8 @@
 		.module('kitchen', [
 			'ngAnimate',
 			'kitchen.router',
-			'kitchen.filters'
+			'kitchen.filters',
+			'ngDialog'
 		]);
 
 })();
