@@ -5,3 +5,33 @@
 	<input type="number" ng-model='addRecipeCtrl.paramRecipe.time'>
 	<input type="submit" ng-click="addRecipeCtrl.addRecipe()" value="Добавить" />
 </form>
+
+
+
+<div flow-init="{target: '/upload'}"
+     flow-files-submitted="$flow.upload()"
+     flow-file-success="$file.msg = $message">
+
+
+  <input type="file" flow-btn/>
+
+  <span class="btn" flow-btn>Upload File</span>
+
+
+<div class="alert" flow-drop flow-drop-enabled="config.enabled">
+    Drag And Drop your file here
+</div>
+  <table>
+    <tr ng-repeat="file in $flow.files">
+        <td>{{$index+1}}</td>
+        <td>{{file.name}}</td>
+        <td>{{file.msg}}</td>
+        <td><img flow-img="$flow.files[0]" /></td>
+    </tr>
+  </table>
+
+  <a href="#" class="btn btn-danger" ng-show="$flow.files.length"
+         ng-click="$flow.cancel()">
+        Remove
+      </a>
+</div>

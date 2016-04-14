@@ -6,7 +6,8 @@
 			'ngAnimate',
 			'kitchen.router',
 			'kitchen.filters',
-			'ngDialog'
+			'ngDialog',
+			'flow'
 		]);
 
 })();

@@ -34,8 +34,8 @@
 		}
 
 		function NewRecipeOpen() {
-			ngDialog.open({ 
-						template: 'app/common/controllers/newRecipe.html', 
+			ngDialog.open({
+						template: 'app/common/controllers/newRecipe.html',
 						className: 'ngdialog-theme-plain',
 						controller:  'addRecipeController',
 						controllerAs: 'addRecipeCtrl'
