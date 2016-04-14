@@ -8,7 +8,12 @@
 
 
 
-<div flow-init="{target: '/upload'}"
+<div flow-init="{target: '/upload', permanentErrors: [404, 500, 501],
+    maxChunkRetries: 1,
+    chunkRetryInterval: 5000,
+    simultaneousUploads: 4,
+    singleFile: true
+}"
      flow-files-submitted="$flow.upload()"
      flow-file-success="$file.msg = $message">
 
@@ -24,7 +29,7 @@
   <table>
     <tr ng-repeat="file in $flow.files">
         <td>{{$index+1}}</td>
-        <td>{{file.name}}</td>
+        <td>{{file.relativePath}}</td>
         <td>{{file.msg}}</td>
         <td><img flow-img="$flow.files[0]" /></td>
     </tr>
