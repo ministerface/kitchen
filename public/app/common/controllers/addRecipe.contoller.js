@@ -17,7 +17,7 @@
 			price: 0,
 			time: 0,
 			images: {
-				imageBig: 'image/food.jpeg'
+				imageBig: ''
 			}
 		}
 

@@ -4,39 +4,36 @@
 	<input type="number" ng-model='addRecipeCtrl.paramRecipe.price'>
 	<input type="number" ng-model='addRecipeCtrl.paramRecipe.time'>
 	<input type="submit" ng-click="addRecipeCtrl.addRecipe()" value="Добавить" />
-</form>
 
 
 
-<div flow-init="{target: '/upload', permanentErrors: [404, 500, 501],
-    maxChunkRetries: 1,
-    chunkRetryInterval: 5000,
-    simultaneousUploads: 4,
-    singleFile: true
-}"
+
+<div flow-init="{target: '/upload', permanentErrors: [404, 500, 501]}"
      flow-files-submitted="$flow.upload()"
-     flow-file-success="$file.msg = $message">
+     flow-file-success="addRecipeCtrl.paramRecipe.images.imageBig = $file.uniqueIdentifier"
+     flow-file-added="!!{png:1,gif:1,jpg:1,jpeg:1}[$file.getExtension()]"
+>
 
 
-  <input type="file" flow-btn/>
+<div class="drop" flow-drop flow-drag-enter="style={border: '2px dashed #00B4F8'}" flow-drag-leave="style={}" ng-style="style">
+    <span class="btn-files btn-files-default" flow-btn="">Загрузить картинку
+      <input type="file" multiple="multiple" style="visibility: hidden; position: absolute;">
+    </span>
 
-  <span class="btn" flow-btn>Upload File</span>
-
-
-<div class="alert" flow-drop flow-drop-enabled="config.enabled">
-    Drag And Drop your file here
+    <span class="btn-files btn-files-default" flow-btn="" flow-directory="" ng-show="$flow.supportDirectory">Загрузить папку с картинками
+      <input type="file" multiple="multiple" webkitdirectory="webkitdirectory" style="visibility: hidden; position: absolute;">
+    </span>
+    <b>ИЛИ</b>
+   переместите сюда изображение
 </div>
-  <table>
-    <tr ng-repeat="file in $flow.files">
-        <td>{{$index+1}}</td>
-        <td>{{file.relativePath}}</td>
-        <td>{{file.msg}}</td>
-        <td><img flow-img="$flow.files[0]" /></td>
-    </tr>
-  </table>
 
-  <a href="#" class="btn btn-danger" ng-show="$flow.files.length"
-         ng-click="$flow.cancel()">
-        Remove
-      </a>
+
+<div class="items">
+  <div class="item" ng-repeat="file in $flow.files">
+    <figure><img flow-img="$flow.files[0]" /></figure>
+  </div>
 </div>
+
+</div>
+
+</form>

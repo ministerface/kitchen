@@ -21,7 +21,7 @@ module.exports = flow = function(temporaryFolder) {
         // Clean up the identifier
         identifier = cleanIdentifier(identifier);
         // What would the file name be?
-        return path.resolve($.temporaryFolder, './flow-' + identifier + '.' + chunkNumber);
+        return path.resolve($.temporaryFolder, './kitchen-' + identifier + '.' + chunkNumber);
     }
 
     function validateRequest(chunkNumber, chunkSize, totalSize, identifier, filename, fileSize) {
@@ -90,8 +90,9 @@ module.exports = flow = function(temporaryFolder) {
     $.post = function(req, callback) {
 
         var fields = req.body;
-        var files = req.files;
 
+        var files = req.files;
+        console.log(files);
         var chunkNumber = fields['flowChunkNumber'];
         var chunkSize = fields['flowChunkSize'];
         var totalSize = fields['flowTotalSize'];
@@ -102,6 +103,8 @@ module.exports = flow = function(temporaryFolder) {
             callback('invalid_flow_request', null, null, null);
             return;
         }
+
+        
 
         var original_filename = files[$.fileParameterName]['originalFilename'];
         var validation = validateRequest(chunkNumber, chunkSize, totalSize, identifier, filename, files[$.fileParameterName].size);

@@ -2,7 +2,7 @@
 	<div class="items">
 		<div class="item" ng-repeat="recipe in mykitchenCtrl.recipes | filterRecipes: search">
 			<figure>
-				<img ng-src="{{recipe.images.imageBig}}" alt="">
+				<img ng-src="/download/{{recipe.images.imageBig}}" alt="">
 			</figure>
 			<h3 ng-bind="recipe.name"></h3>
 			<ul>
