@@ -384,6 +384,7 @@ header .user:before {
   margin-top: 20px;
       color: #777;
     font-weight: 300;
+        margin-bottom: 20px;
 }
 
 .btn-files {
@@ -414,4 +415,42 @@ header .user:before {
 
 .btn-files-default:hover {
       background-color: #E2E2E2;
+}
+
+h2 {
+  font-size: 28px;
+   margin-bottom: 30px;
+}
+
+.addRecipe input {
+    padding: 10px;
+    border: 1px solid #E2E2E2;
+}
+
+.addRecipe input[type='text'] {
+      width: 300px;
+}
+
+.addRecipe input[type='number'] {
+  width: 80px;
+}
+
+input[type='submit'].button {
+    padding: 10px 40px;
+    text-align: center;
+    display: block;
+    border: 1px solid #00B4F8;
+    border-radius: 3px;
+    color: #5A5A5A;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    background: none;
+    cursor: pointer;
+    opacity: 0.6;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+}
+
+input[type='submit'].button:hover {
+  opacity: 1;
 }

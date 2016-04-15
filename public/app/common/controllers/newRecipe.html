@@ -1,11 +1,8 @@
 <h2>Запилить новый рецепт</h2>
-<form name='newRecipe'>
+<form name='newRecipe' class='addRecipe'>
 	<input type="text" ng-model='addRecipeCtrl.paramRecipe.name'>
 	<input type="number" ng-model='addRecipeCtrl.paramRecipe.price'>
 	<input type="number" ng-model='addRecipeCtrl.paramRecipe.time'>
-	<input type="submit" ng-click="addRecipeCtrl.addRecipe()" value="Добавить" />
-
-
 
 
 <div flow-init="{target: '/upload', permanentErrors: [404, 500, 501]}"
@@ -35,5 +32,7 @@
 </div>
 
 </div>
+
+  <input type="submit" class="button" ng-click="addRecipeCtrl.addRecipe()" value="Добавить" />
 
 </form>
