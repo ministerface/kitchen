@@ -3,7 +3,7 @@
 
     angular
         .module('kitchen.router', ['ui.router'])
-    	.config(ConfigRoutes);
+        .config(ConfigRoutes);
 
     ConfigRoutes.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
@@ -11,7 +11,7 @@
         $locationProvider.html5Mode(true);
 
         $urlRouterProvider.otherwise("/404");
- 
+
         $stateProvider
             .state('mykitchen', {
                 url: "/",
@@ -37,7 +37,7 @@
     }
 
     recipesPrepService.$inject = ['request'];
-    
+
     function recipesPrepService(request) {
         return request.getRecipes();
     }

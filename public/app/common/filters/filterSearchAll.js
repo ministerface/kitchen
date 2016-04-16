@@ -6,9 +6,9 @@
 
 	function FilterRecipes() {
 		return function (items, searchs) {
-	  	var filtered = [];
-	  	for (var i = 0; i < items.length; i++) {
-	    	var item = items[i];
+		var filtered = [];
+		for (var i = 0; i < items.length; i++) {
+			var item = items[i];
 				if(searchs){
 					var match = function (item1, val) {
 						val = val.toLowerCase();
@@ -22,16 +22,16 @@
 					}
 					var matched = true;
 					searchs.split(' ').forEach(function(token) {
-			       matched = matched && match(item, token);
-			    });
+					matched = matched && match(item, token);
+				});
 					if (matched) {
 						filtered.push(item);
 					}
 				} else {
 					filtered.push(item);
 				}
-	  	}
-	  	return filtered;
+		}
+		return filtered;
 		};
 	}
 
