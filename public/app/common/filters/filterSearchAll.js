@@ -5,6 +5,7 @@
 		.filter('filterRecipes', FilterRecipes);
 
 	function FilterRecipes() {
+
 		return function (items, searchs) {
 		var filtered = [];
 		for (var i = 0; i < items.length; i++) {

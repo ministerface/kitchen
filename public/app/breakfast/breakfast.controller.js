@@ -1,9 +1,10 @@
 (function(){
 	angular
-    	.module('kitchen')
-    	.controller('breakfastController', BreakfastController);
+		.module('kitchen')
+		.controller('breakfastController', BreakfastController);
 
-  	function BreakfastController() {
+	BreakfastController.$inject = ['$filter', '$scope'];
+	function BreakfastController($filter, $scope) {
 		var breakfastCtrl = this;
 
 		breakfastCtrl.recipes = [
@@ -88,6 +89,10 @@
 				}
 			}
 		];
+
+		$scope.$watch('search', function(val) {
+			breakfastCtrl.filteredRecipes = $filter('filterRecipes')(breakfastCtrl.recipes, val);
+		});
 	}
 
 })();
