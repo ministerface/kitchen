@@ -1,6 +1,5 @@
 (function(){
 	'use strict';
-
 	angular
 		.module('kitchen', [
 			'ngAnimate',
@@ -9,5 +8,4 @@
 			'ngDialog',
 			'flow'
 		]);
-
 })();
